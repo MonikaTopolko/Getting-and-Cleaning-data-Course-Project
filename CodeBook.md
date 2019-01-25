@@ -16,29 +16,30 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 ## Attribute Information
 
 For each record in the dataset it is provided: 
-*Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-*Triaxial Angular velocity from the gyroscope. 
-*A 561-feature vector with time and frequency domain variables. 
-*Its activity label. 
+ * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+ * Triaxial Angular velocity from the gyroscope. 
+ * A 561-feature vector with time and frequency domain variables. 
+ * Its activity label. 
 
 ## Tidy data
 
 Tidy data (tidy_data.txt) contains 180 rows and 82 columns. Each row has averaged variables for each subject and each activity.
 Only the variables estimated from mean and standard deviation in the tidy set were kept:
-*mean(): Mean value
-*std(): Standard deviation
+ * mean(): Mean value
+ * std(): Standard deviation
 
 Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+ * WALKING
+ * WALKING_UPSTAIRS
+ * WALKING_DOWNSTAIRS
+ * SITTING
+ * STANDING
+ * LAYING
 
 The tidy data contains 180 rows (averaged based on activity) and 82 columns.
 
+```
 [1] "subjectId"                       "activityId"                      "tBodyAcc.mean...X"
 [4] "tBodyAcc.mean...Y"               "tBodyAcc.mean...Z"               "tBodyAcc.std...X"
 [7] "tBodyAcc.std...Y"                "tBodyAcc.std...Z"                "tGravityAcc.mean...X" 
@@ -67,6 +68,7 @@ The tidy data contains 180 rows (averaged based on activity) and 82 columns.
 [76] "fBodyBodyGyroMag.mean.."         "fBodyBodyGyroMag.std.."          "fBodyBodyGyroMag.meanFreq.."
 [79] "fBodyBodyGyroJerkMag.mean.."     "fBodyBodyGyroJerkMag.std.."      "fBodyBodyGyroJerkMag.meanFreq.."
 [82] "activityType"
+```
 
 Variables activityType, activityId and subjectID are integer type. All the other variables are numeric type.
 
