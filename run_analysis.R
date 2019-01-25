@@ -1,5 +1,5 @@
-# Download and unzip the data from the provided URL and make sure the files are placed in your R working direcory
-setwd("/home/monika/ownCloud/Data Science specijalizacija/03 Getting and cleaning data/Week 4/Project/UCI HAR Dataset")
+# Download and unzip the data from the provided URL and make sure the files are placed in your R working direcory:
+# https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # Load required packages (install if necessary)
 library(dplyr)
